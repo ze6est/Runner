@@ -4,7 +4,7 @@ public class Player : MonoBehaviour
 {
     [SerializeField] private int _health;
 
-    private void ApplyDamage(int damage)
+    public void ApplyDamage(int damage)
     {
         _health -= damage;
 
